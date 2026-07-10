@@ -1,0 +1,22 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ResumeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <envs>
+      <env name=" DB_PASSWORD" value="pcMXJuPmrNQUcudsDRydPGsnqENLBNvT" />
+      <env name=" DB_USERNAME" value="railway" />
+      <env name=" JWT_SECRET" value="9f6d7f7e2f6bb8b7a4a5c1f35a8e3d4b2f8c7d6e9a1b4c5d8e7f6a5b4c3d2e1" />
+      <env name="DB_URL" value="mysql://root:pcMXJuPmrNQUcudsDRydPGsnqENLBNvT@mysql.railway.internal:3306/railway" />
+    </envs>
+    <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+    <module name="Resume" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.Analyze.Resume.ResumeApplication" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.Analyze.Resume.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
